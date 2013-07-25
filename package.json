@@ -37,6 +37,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "connect": "~2.8.4"
+    "connect": "~2.8.4",
+    "underscore": "~1.5.1"
   }
 }
