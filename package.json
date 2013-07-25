@@ -1,0 +1,40 @@
+{
+  "name": "grunt-serve-qunit-tests",
+  "description": "Serve up qunit tests without writing any HTML.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mwilliamson/grunt-server-qunit-tests",
+  "author": {
+    "name": "Michael Williamson",
+    "email": "mike@zwobble.org",
+    "url": "http://mike.zwobble.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwilliamson/grunt-server-qunit-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwilliamson/grunt-server-qunit-tests/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mwilliamson/grunt-server-qunit-tests/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1",
+    "connect": "~2.8.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
