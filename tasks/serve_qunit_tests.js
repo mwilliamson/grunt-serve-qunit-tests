@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-  grunt.registerMultiTask("serve-qunit-tests", "Server qunit tests", function() {
+  grunt.registerMultiTask("serve_qunit_tests", "Server qunit tests", function() {
     var options = this.options();
     require("./lib/server").startServer({
         port: options.port,
